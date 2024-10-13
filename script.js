@@ -1,10 +1,10 @@
-let totalUsersElement = document.getElementById("totalUsers");
-let totalSaleselement = document.getElementById("totalSales");
+let totalUsers = document.getElementById('totalUsers');
+let totalSales = document.getElementById('totalSales');
 
-let Button = document.getElementById('Button');
+let button = document.getElementById('alertButton');
 
-Button.addEventListener('click', function() {
+button.addEventListener('click', function(){
+
+    alert('Total Users:' + totalUsers.textContent + 'Total Sales:' + totalSales.textContent);
     
-        let totalSales = totalSaleselement.textContent;
-        let totalUsers = totalUsersElement.textContent;
 });
