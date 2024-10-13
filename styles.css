@@ -1,0 +1,39 @@
+body {
+    font-family: Arial;
+    background-color: #ffffff;
+
+}
+
+header {
+    background-color: #3f5fee;
+    color: #ffffff;
+
+}
+
+main{
+    padding: 20px;
+    text-align: center;
+
+
+}
+.metric {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    margin: 20px auto;
+    padding: 10px;
+    width: 500px;
+}
+
+button {
+    background-color: #3f5fee;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: #383838;
+}
+
+
